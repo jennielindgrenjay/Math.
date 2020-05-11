@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: gray;
+    font-family: monospace;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+p {
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#math_div {
+    
+    width: 900px;
+    height: 700px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.gray_div {
+    padding-top: 5px;
+    background-color: lightgray;
+    border: solid 2px transparent;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.white_div {
+    padding-top: 5px;
+    background-color: white;
+    border: solid 2px transparent;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+input {
+    background-color: white;
+    width: 70px;
+}
+
+.gray {
+    color: gray;
+}
+
+.black {
+    color: black;
+}
+
+span {
+    color: dodgerblue;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#round_output,  #floor_output {
+    color: black;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding-left: 380px;
+}
+
+#ceil_output {
+    color: black;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding-left: 390px;
+}
+
+#abs_output {
+    color: black;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding-left: 400px;
+}
+
+#max_output, #min_output {
+    color: black;
+    padding-left: 300px;
+}
+
+#pi {
+    color: black;
+    padding-left: 495px;
+}
+
+#random {
+    color: black;
+    font-family: monospace;
+    padding-left: 450px;
+}
+
+@media (min-width:1545px) and (max-width:2560px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 200px;
+        font-family: monospace;
+        font-weight: bold;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    h2 {
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: gray;
+        font-family: monospace;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    li {
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    
+    p {
+        color: black;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    #math_div {
+        padding: 30px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .gray_div {
+        padding-top: 10px;
+        background-color: lightgray;
+        border: solid 2px transparent;
+        width: 1500px;
+        height: 70px;
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    
+    .white_div {
+        padding-top: 10px;
+        background-color: white;
+        border: solid 2px transparent;
+        width: 1500px;
+        height: 70px;
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    
+    input {
+        background-color: white;
+        width: 100px;
+        height: 35px;
+        padding: 10px;
+        font-size: 30px;
+    }
+    
+    .gray {
+        color: gray;
+    }
+    
+    .black {
+        color: black;
+    }
+    
+    span {
+        color: dodgerblue;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    #round_output {
+        color: black;
+        padding-left: 925px;
+    }
+
+    #floor_output {
+        color: black;
+        padding-left: 920px;
+    }
+    
+    #ceil_output {
+        color: black;
+        padding-left: 940px;
+    }
+    
+    #abs_output {
+        color: black;
+        padding-left: 960px;
+    }
+    
+    #max_output, #min_output {
+        color: black;
+        padding-left: 790px;
+    }
+    
+    #pi {
+        color: black;
+        padding-left: 1100px;
+    }
+    
+    #random {
+        color: black;
+        font-family: monospace;
+        
+        padding-left: 1010px;
+    }
+}
